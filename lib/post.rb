@@ -4,8 +4,8 @@ class Post
   @@all = []
 
   def initialize(author)
-    @@all << self
     @author = author
+    @@all << self
   end
 
   def self.all
